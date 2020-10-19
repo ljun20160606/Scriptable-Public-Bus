@@ -12,7 +12,7 @@
 
 #### 获取routeId
 
-<img src="RouteId.jpg" style="zoom:30%;" />
+<img src="RouteId.jpg" width="360px" />
 
 会搜到两个routeName都236M路的routeInfo，根据amapName字段确定方向，保存 routeId: **3301000100105326**
 
@@ -20,7 +20,7 @@
 
 再往前翻，在routeInfos的上面，可以看到东方中学对应的stopId为**1001007635**
 
-<img src="StopId.jpg" style="zoom:30%;" />
+<img src="StopId.jpg" width="360px" />
 
 #### 设置挂件
 
@@ -28,4 +28,4 @@
 
 拷贝文件本gist中的foolkit.js,ibuscloud.js,Public Bus.js三个文件到Scriptable中，添加Scriptable挂件，编辑挂件，选择脚本Public Bus，参数(Parameter)部分填入`3301000100105326,1001007635`即可，由于挂件的刷新机制是由os自动控制，如果想主动更新挂件，可以编辑挂件时，选择交互(When Interacting)为运行脚本(Run Script)，之后点击挂件即可主动触发刷新
 
-<img src="Scripable-Options.jpg" style="zoom:30%;" />
+<img src="Scripable-Options.jpg" width="360px" />
